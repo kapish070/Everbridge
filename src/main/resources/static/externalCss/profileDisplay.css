@@ -1,0 +1,52 @@
+.img{
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    float: right;
+}
+#namecorner{
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.body{
+    font-family: "Fira Sans";
+    font-size: 1rem;
+    line-height: 1.6;
+}
+#outerBox{
+    padding:10px;
+    border-radius: 0px;
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: #f4fafa;
+}
+#innerBox{
+    background-color: white;
+    padding:30px;
+    border-radius: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.input{
+    background-color: #f4fafa;
+    color: grey;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:5px;
+    /* padding: px; */
+    margin-top: 5px;
+    border:white;
+}
+.label{
+    color: #388473;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 20px; */
+}
+#button{
+    width: 140px;
+    padding: 10px;
+    float: right;
+  }
