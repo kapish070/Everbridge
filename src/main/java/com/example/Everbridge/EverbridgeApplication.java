@@ -17,19 +17,21 @@ import com.example.modal.User;
 public class EverbridgeApplication  {
 
 	@Autowired
-    private JdbcTemplate jdbcTemplate;
-	
-	public static void main(String[] args) {
+	private JdbcTemplate jdbcTemplate;
+
+	public static void main(String[] args)  {
 		SpringApplication.run(EverbridgeApplication.class, args);
 	}
 
 	/*
-	 * @Override public void run(String... args) throws Exception { String sql =
+	 * @Override public void run(String... args) throws Exception { 
+	 * 
+	 * String sql =
 	 * "SELECT * FROM WORKDAY.WORKER_DETAILS_COMM";
 	 * 
 	 * List<User> students = jdbcTemplate.query(sql,
 	 * BeanPropertyRowMapper.newInstance(User.class));
 	 * 
-	 * students.forEach(System.out :: println); }
+	 * students.forEach(System.out::println); }
 	 */
 }

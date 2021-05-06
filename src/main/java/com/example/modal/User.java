@@ -108,38 +108,27 @@ public class User {
 	@Column(name = "RHS_TEXTS")
 	private String rhs_texts;
 
-	public User() {
-
-	}
-
-	public User(int employee_id, String work_email, String we_kronos, String home_phone, String hp_alert, String work_phone,
-			String wp_alert, String personal_email, String pe_alert, String pe_kronos, String cell_phone, String cp_alert,
-			String text_phone, String text_alert, String txt_kronos, String int_pager, String ip_alert, String ext_pager,
-			String ep_alert, String comm_pref, String rhs_texts) {
-		super();
-		this.employee_id = employee_id;
-		this.work_email = work_email;
-		this.we_kronos = we_kronos;
-		this.home_phone = home_phone;
-		this.hp_alert = hp_alert;
-		this.work_phone = work_phone;
-		this.wp_alert = wp_alert;
-		this.personal_email = personal_email;
-		this.pe_alert = pe_alert;
-		this.pe_kronos = pe_kronos;
-		this.cell_phone = cell_phone;
-		this.cp_alert = cp_alert;
-		this.text_phone = text_phone;
-		this.text_alert = text_alert;
-		this.txt_kronos = txt_kronos;
-		this.int_pager = int_pager;
-		this.ip_alert = ip_alert;
-		this.ext_pager = ext_pager;
-		this.ep_alert = ep_alert;
-		this.comm_pref = comm_pref;
-		this.rhs_texts = rhs_texts;
-	}
-
+	/*
+	 * public User() {
+	 * 
+	 * }
+	 * 
+	 * public User(int employee_id, String work_email, String we_kronos, String
+	 * home_phone, String hp_alert, String work_phone, String wp_alert, String
+	 * personal_email, String pe_alert, String pe_kronos, String cell_phone, String
+	 * cp_alert, String text_phone, String text_alert, String txt_kronos, String
+	 * int_pager, String ip_alert, String ext_pager, String ep_alert, String
+	 * comm_pref, String rhs_texts) { super(); this.employee_id = employee_id;
+	 * this.work_email = work_email; this.we_kronos = we_kronos; this.home_phone =
+	 * home_phone; this.hp_alert = hp_alert; this.work_phone = work_phone;
+	 * this.wp_alert = wp_alert; this.personal_email = personal_email; this.pe_alert
+	 * = pe_alert; this.pe_kronos = pe_kronos; this.cell_phone = cell_phone;
+	 * this.cp_alert = cp_alert; this.text_phone = text_phone; this.text_alert =
+	 * text_alert; this.txt_kronos = txt_kronos; this.int_pager = int_pager;
+	 * this.ip_alert = ip_alert; this.ext_pager = ext_pager; this.ep_alert =
+	 * ep_alert; this.comm_pref = comm_pref; this.rhs_texts = rhs_texts; }
+	 * 
+	 */	
 	public int getEmployee_id() {
 		return employee_id;
 	}

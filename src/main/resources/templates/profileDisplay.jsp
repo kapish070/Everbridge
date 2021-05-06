@@ -1,4 +1,4 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:th="http://www.thymeleaf.org"
 	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
@@ -18,8 +18,7 @@
 <link rel="stylesheet" href="" th:href="@{/externalCss/main.css}" />
 </head>
 <body>
-	<form name="f" th:action="@{/login}" method="post"
-		modelAttribute="User">
+	<form name="f" th:action="@{/login}" method="post" modelAttribute="User">
 		<body class="body">
 			<form>
 				<div class="container-fuilds">
@@ -81,7 +80,7 @@
 												</div>
 												<div class="form-group col-md-8">
 													<input class="form-control input" type="text"
-														placeholder="" value="${details.employee_id}"></input>
+														placeholder="" value="${details.home_phone}"></input>
 												</div>
 											</div>
 											<div class="form-row">
